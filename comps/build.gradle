@@ -54,7 +54,7 @@ afterEvaluate {
                 from components.release
                 artifactId 'comp-compose'
                 groupId 'com.github.arifahmadalfian'
-                version '1.0.0'
+                version '1.0.1'
             }
         }
     }
