@@ -17,6 +17,6 @@ allprojects {
 ```
 dependencies {
     ...
-    implementation 'com.github.arifahmadalfian:Comp:1.0.0'
+    implementation 'com.github.arifahmadalfian:Comp:1.0.1'
 }
 ```
