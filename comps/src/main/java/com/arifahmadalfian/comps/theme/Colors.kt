@@ -1,4 +1,4 @@
-package com.arifahmadalfian.comps
+package com.arifahmadalfian.comps.theme
 
 import androidx.compose.ui.graphics.Color
 
