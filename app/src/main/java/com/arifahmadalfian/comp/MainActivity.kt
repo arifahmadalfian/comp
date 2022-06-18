@@ -68,7 +68,7 @@ fun AnimationLoadingBounce() {
         modifier = Modifier
             .padding(all = 16.dp),
         loading = loading,
-        animationType = AnimationType.Bounce,
+        animationType = AnimationType.Bounce(indicatorSize = 4f),
         text = "Bounce",
         textColor = Color.White,
     )
@@ -105,7 +105,7 @@ fun AnimationLoadingFade() {
         modifier = Modifier
             .padding(all = 16.dp),
         loading = loading,
-        animationType = AnimationType.Fade,
+        animationType = AnimationType.Fade(),
         text = "Fade",
         textColor = Color.White,
     )
@@ -143,8 +143,8 @@ fun AnimationLoadingCircular() {
         modifier = Modifier
             .padding(all = 16.dp),
         loading = loading,
-        animationType = AnimationType.Circular,
-        text = "Bounce",
+        animationType = AnimationType.Circular(),
+        text = "Circular",
         textColor = Color.White,
     )
 

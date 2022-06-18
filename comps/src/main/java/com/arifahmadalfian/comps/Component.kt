@@ -1,27 +1,21 @@
 package com.arifahmadalfian.comps
 
-import android.util.Log
-import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.*
-import androidx.compose.runtime.*
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.Button
+import androidx.compose.material.ButtonDefaults
+import androidx.compose.material.Text
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.material.Surface
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.layout.onSizeChanged
-import androidx.compose.ui.unit.Dp
-import androidx.compose.ui.unit.IntSize
 import com.arifahmadalfian.comps.theme.BlueButtonBottom
 import com.arifahmadalfian.comps.theme.BlueButtonTop
-import com.arifahmadalfian.comps.theme.Shapes
 import com.arifahmadalfian.comps.theme.fontFamily
 
 @Composable
@@ -36,7 +30,7 @@ fun ButtonGradient(
             backgroundColor = Color.Transparent,
         ),
         contentPadding = PaddingValues(),
-        onClick = { onClick() }
+        onClick = onClick
     ) {
         Box(
             modifier = Modifier
