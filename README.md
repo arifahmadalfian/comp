@@ -1,6 +1,7 @@
 ## Test
 
 [![](https://jitpack.io/v/arifahmadalfian/Comp.svg)](https://jitpack.io/#arifahmadalfian/Comp/1.0.0)
+[![arifahmadalfian](https://circleci.com/gh/arifahmadalfian/Comp.svg?style=shield)](https://circleci.com/gh/arifahmadalfian/Comp)
 ## Installation
 **Step 1.** Add the [JitPack](https://jitpack.io/#arifahmadalfian/Comp/1.0.0) 
 repository to your build file. Add it in your root `/build.gradle` at the end of repositories:
