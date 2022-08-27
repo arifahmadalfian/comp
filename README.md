@@ -1,6 +1,6 @@
 ## Test
 
-[![](https://jitpack.io/v/arifahmadalfian/Comp.svg)](https://jitpack.io/#arifahmadalfian/Comp/1.0.0)
+[![](https://jitpack.io/v/arifahmadalfian/comp.svg)](https://jitpack.io/#arifahmadalfian/comp/1.0.0)
 [![arifahmadalfian](https://circleci.com/gh/arifahmadalfian/comp.svg?style=shield)](https://circleci.com/gh/arifahmadalfian/comp)
 
 
