@@ -15,6 +15,6 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "Comp"
+rootProject.name = "comp"
 include ':app'
 include ':comps'
