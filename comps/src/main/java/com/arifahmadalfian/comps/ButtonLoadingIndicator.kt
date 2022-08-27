@@ -112,7 +112,7 @@ fun LoadingButtonIndicator(
         contentPadding = PaddingValues(),
     ) {
         Box(
-            modifier = Modifier
+            modifier = modifier
                 .background(brush)
                 .padding(horizontal = 16.dp, vertical = 9.dp),
             contentAlignment = Alignment.Center,
